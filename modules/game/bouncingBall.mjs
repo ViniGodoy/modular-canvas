@@ -31,7 +31,4 @@ function draw(ctx) {
     ctx.stroke();
 }
 
-animate(
-    document.querySelector('#canvas'),
-    {update, draw}
-)
+animate(canvas, {update, draw})
