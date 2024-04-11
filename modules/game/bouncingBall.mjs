@@ -15,7 +15,7 @@ function update(time) {
 
     // Inverte a direção da bola se atingir os cantos.
     if (y < RADIUS) velocity = SPEED;
-    else if (y > canvas.width - RADIUS) velocity = -SPEED;
+    else if (y > canvas.height - RADIUS) velocity = -SPEED;
 }
 
 function draw(ctx) {
